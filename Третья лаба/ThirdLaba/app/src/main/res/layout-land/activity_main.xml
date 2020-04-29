@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity"
+    android:padding="2dp"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="105dp"
+                android:background="@drawable/scrollview">
+
+                <ImageView
+                    android:contentDescription="@string/image_desc"
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/pizzalogo"/>
+                <ImageView
+                    android:contentDescription="@string/image_desc"
+                    android:layout_width="90dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/pizzalogo"/>
+                <ImageView
+                    android:contentDescription="@string/image_desc"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/pizzalogo"/>
+                <ImageView
+                    android:contentDescription="@string/image_desc"
+                    android:layout_width="110dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/pizzalogo"/>
+                <ImageView
+                    android:contentDescription="@string/image_desc"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/pizzalogo"/>
+                <ImageView
+                    android:contentDescription="@string/image_desc"
+                    android:layout_width="90dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/pizzalogo"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/nameperson"
+                    android:textSize="20sp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginStart="10dp"
+                    android:textColor="#000000"/>
+                <EditText
+                    android:id="@+id/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="@string/namehint"
+                    android:inputType="textPersonName"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="7dp"
+                    android:textColor="#000000"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/phonenumber"
+                    android:textSize="20sp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="10dp"
+                    android:textColor="#000000"/>
+                <EditText
+                    android:id="@+id/phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/phonehint"
+                    android:inputType="phone"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="7dp"
+                    android:textColor="#000000"/>
+
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <RadioButton
+                        android:id="@+id/rb1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/small"
+                        android:textSize="18sp"
+                        android:textColor="#000000"
+                        android:layout_marginStart="7dp"
+                        android:layout_marginTop="12dp"
+                        android:onClick="radioClicked"/>
+
+                    <RadioButton
+                        android:id="@+id/rb2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="7dp"
+                        android:layout_marginTop="7dp"
+                        android:checked="false"
+                        android:onClick="radioClicked"
+                        android:text="@string/medium"
+                        android:textColor="#000000"
+                        android:textSize="18sp" />
+                    <RadioButton
+                        android:id="@+id/rb3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000000"
+                        android:text="@string/big"
+                        android:textSize="18sp"
+                        android:layout_marginStart="7dp"
+                        android:layout_marginTop="7dp"
+                        android:layout_marginBottom="7dp"
+                        android:onClick="radioClicked"/>
+                </RadioGroup>
+
+                <CheckBox
+                    android:id="@+id/cb1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/gribi"
+                    android:textSize="15sp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="12dp"
+                    android:onClick="checkboxClicked"/>
+                <CheckBox
+                    android:id="@+id/cb2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/kolbasa"
+                    android:textSize="15sp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="7dp"
+                    android:onClick="checkboxClicked"/>
+                <CheckBox
+                    android:id="@+id/cb3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/salami"
+                    android:textSize="15sp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="7dp"
+                    android:onClick="checkboxClicked"/>
+                <CheckBox
+                    android:id="@+id/cb4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ananas"
+                    android:textSize="15sp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="7dp"
+                    android:onClick="checkboxClicked"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/choice"
+                    android:textSize="20sp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginStart="7dp"
+                    android:textColor="#000000"/>
+
+                <Spinner
+                    android:id="@+id/spinner1"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:textSize="20sp"
+                    android:layout_marginStart="7dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="12dp"/>
+
+                <EditText
+                    android:id="@+id/numberCard"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="@string/cardhint"
+                    android:inputType="number"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="7dp"
+                    android:enabled="false"
+                    android:textColor="#000000"/>
+
+                <EditText
+                    android:id="@+id/cviCard"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="@string/cvchint"
+                    android:inputType="number"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="7dp"
+                    android:enabled="false"
+                    android:textColor="#000000"/>
+
+                <Switch
+                    android:id="@+id/switcherButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_marginStart="7dp"
+                    android:layout_marginTop="12dp"
+                    android:text="@string/switcher"/>
+
+                <EditText
+                    android:id="@+id/emailAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="@string/email"
+                    android:inputType="textEmailAddress"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="7dp"
+                    android:enabled="false"
+                    android:textColor="#000000"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="12dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:textSize="22sp"
+                        android:textColor="#000000"
+                        android:text="@string/count"/>
+
+                    <TextView
+                        android:id="@+id/total"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:text="@string/money"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+
+                <Button
+                    android:id="@+id/buttonPay"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:textSize="20sp"
+                    android:text="@string/pay"
+                    android:background="@drawable/scrollview"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginBottom="7dp"
+                    android:onClick="payOrder"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

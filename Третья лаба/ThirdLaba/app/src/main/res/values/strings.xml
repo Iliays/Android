@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">ThirdLaba</string>
+    <string name="image_desc">Logo pizza</string>
+
+    <string name="nameperson">Введите имя:</string>
+    <string name="namehint">Введите имя</string>
+    <string name="phonenumber">Введите номер телефона:</string>
+    <string name="phonehint">Введите номер телефона</string>
+    <string name="switcher">Прислать копию заказа на email</string>
+    <string name="email">Введите email</string>
+    <string name="cardhint">Введите номер карты</string>
+    <string name="cvchint">Введите CVC карты</string>
+
+    <string name="small">Маленький размер - 20 см (100 руб)</string>
+    <string name="medium">Средний размер - 25 см (150 руб)</string>
+    <string name="big">Большой размер - 30 см (200 руб)</string>
+
+    <string name="gribi">Грибы (30 руб)</string>
+    <string name="kolbasa">Колбаса (40 руб)</string>
+    <string name="salami">Салями (55 руб)</string>
+    <string name="ananas">Ананас (35 руб)</string>
+
+    <string name="count">Итоговая сумма:</string>
+    <string name="money">0 рублей</string>
+    <string name="pay">Оплатить</string>
+
+    <string name="choice">Выберите способ оплаты</string>
+    <string-array name="payment">
+        <item>Qiwi кошелек</item>
+        <item>WebMoney</item>
+        <item>Яндекс.Деньги</item>
+        <item>Банковская карта</item>
+        <item>Наличные</item>
+    </string-array>
+</resources>
