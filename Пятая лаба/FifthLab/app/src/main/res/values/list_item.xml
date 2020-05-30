@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="title_category">
+        <item>Театры</item>
+        <item>Музеи</item>
+        <item>Горячие источники</item>
+    </string-array>
+    <string-array name="description_category">
+        <item>Прелести искусства</item>
+        <item>Исторические музеи города</item>
+        <item>Место, где можно раслабиться</item>
+    </string-array>
+    <string-array name="theatres_title">
+        <item>Кабукидза</item>
+        <item>Синбаси Энбудзё</item>
+        <item>Императорский театр</item>
+    </string-array>
+    <string-array name="theatres_description">
+        <item>Основной театр кабуки, здание театра впервые построенно в 1889 году.</item>
+        <item>Его строительство было завершено в 1925 году, и он пострадал от авианалетов во время Второй мировой войны.</item>
+        <item>Открылся в 1911 году и являлся первым театром западного стиля в Японии. Репертуар театра варьируется от мюзиклов до опер.</item>
+    </string-array>
+    <string-array name="theatres_address">
+        <item>Расположен в Гиндзе, Токио</item>
+        <item>Расположен в Гиндзе, 6-18-2</item>
+        <item>В квартале Маруноути, в районе Тиёда</item>
+    </string-array>
+    <string-array name="museum_title">
+        <item>Музей Эдо-Токио</item>
+        <item>Музей цифрового искусства</item>
+        <item>Токийский национальный музей</item>
+    </string-array>
+    <string-array name="museum_description">
+        <item>Это сравнительно новая экспозиция: она открыта в 1993 году.</item>
+        <item>Целью выставки является передавать посетителю картину через его собственные ощущения.</item>
+        <item>Старейший и крупнейший музей Японии.</item>
+    </string-array>
+    <string-array name="museum_address">
+        <item>Йокогама, Сумида, Токио 130-0015</item>
+        <item>Токио, Кото, Аоми</item>
+        <item>13-9 Уэнкоен, Тайто, Токио 110-8712</item>
+    </string-array>
+    <string-array name="museum_time_work">
+        <item>c 09:00 до 18:00</item>
+        <item>с 09:00 до 20:00</item>
+        <item>c 09:00 до 19:00</item>
+    </string-array>
+    <string-array name="onsen_title">
+        <item>LaQua</item>
+        <item>The Okura Tokyo</item>
+        <item>Tokyo Yugawara Onsen Manyo no Yu</item>
+    </string-array>
+    <string-array name="onsen_description">
+        <item>Спа-центр LaQua на горячих источниках, бьющих с глубины 1700 метров.</item>
+        <item>Миссия открытой в 1962 году гостиницы – объединение древних традиций японского гостеприимства с современной роскошью.</item>
+        <item>Термальные источники – не просто отличный способ расслабиться и поправить здоровье, но и неотъемлемая часть отдыха в бурлящей вулканами Японии.</item>
+    </string-array>
+    <string-array name="onsen_address">
+        <item>Йокогама, Токио</item>
+        <item>Кото, Токио</item>
+        <item>Тайто, Токио</item>
+    </string-array>
+    <string-array name="onsen_time_work">
+        <item>c 11:00 до 21:00</item>
+        <item>Круглосуточно</item>
+        <item>с 10:00 до 22:00</item>
+    </string-array>
+    <string-array name="onsen_rating">
+        <item>4.7</item>
+        <item>5.0</item>
+        <item>4.4</item>
+    </string-array>
+</resources>

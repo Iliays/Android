@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/GhostWhite"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/image_restaurant"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:src="@mipmap/ic_launcher"
+        android:scaleType="centerCrop"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/title_restaurant"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="name_restaurant"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textColor="@color/Teal"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/rating_star_24dp"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:id="@+id/rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5.0"
+            android:layout_margin="5dp"
+            android:textSize="20sp"
+            android:textColor="@color/colorGold"
+            android:fontFamily="sans-serif-condensed-medium"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/descriptions_restaurant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="descriptions_restaurant"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:textColor="@color/Teal"
+        android:layout_margin="5dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:id="@+id/address_restaurant"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="address_restaurant"
+            android:textSize="15sp"
+            android:textStyle="italic"
+            android:textColor="@color/Teal"
+            android:layout_margin="5dp"
+            android:textAlignment="textStart"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/time_work_restaurant"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="time_work_restaurant"
+            android:textSize="15sp"
+            android:textStyle="italic"
+            android:textColor="@color/Teal"
+            android:layout_margin="5dp"
+            android:textAlignment="textEnd"/>
+    </LinearLayout>
+
+
+</LinearLayout>
